@@ -22,7 +22,7 @@ jobs:
         run: pip install requests beautifulsoup4 pytz
       
       - name: Run scraper
-        run: python football_scraper_condense.py
+        run: python "📄 football_scraper_condense.py"
       
       - name: Commit and push
         run: |
